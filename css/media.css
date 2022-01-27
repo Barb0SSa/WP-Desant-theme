@@ -1,0 +1,328 @@
+/* =================== adaptive ================= */
+
+@media (min-width: 801px) {
+    .menu__link:hover {
+        background-color: rgba(255,255,255, 0.1);
+    }
+}
+
+@media (max-width: 1140px) {
+    .main__elem {
+        width: auto;
+        max-width: 1140px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .header__menu {
+        padding: 0 35px;
+    }
+    .footer {
+        padding: 15px 55px;
+    }
+    .footer__law {
+        line-height: 1.6;
+        font-size: 14px;
+    }
+    .footer__left {
+        line-height: 1.6;
+        font-size: 14px;
+    }
+}
+@media (max-width: 1030px) {
+     /* =========== шапка ============== */
+     .header {
+        height: 200px;
+    }
+    .header__title {
+        height: 50px;
+    }
+    .header__menu {
+        padding: 0;
+        flex-direction: column;
+    }
+    .menu__toggle {
+        display: flex;
+    }
+    .menu__toggle-btn {
+        display: flex;
+    }
+    .menu {
+        position: absolute;
+        top: 80px;
+        flex-direction: column;
+        overflow: hidden;
+        transition: 0.4s;
+    }
+    .menu__link {
+        color: #54595F;
+    }
+    .menu__item {
+        background-color: #EAEAEA;
+    }
+    .drop-menu {
+        position: relative;
+        top: 0;
+    }
+    .drop-menu__link {
+        justify-content: flex-start;
+        padding-left: 50px;
+    }
+    /* ====== герои ====== */
+    .heroes__hero {
+        width: 49%;
+        height: auto;
+    }
+    .hero__img {
+        height: auto;
+        width: 100%;
+    }
+    /* ====== новости ======= */
+    .news__post {
+        width: 49%;
+    }
+    .news__img-wrapper {
+        height: 250px;
+    }
+    .news__description {
+        font-size: 13px;
+    }
+    /* .news__img {
+        width: 100%;
+    } */
+    /* ========= партнеры ========== */
+    .donate__thanks {
+        font-size: 19px;
+    }
+    .donate__btn {
+        font-size: 16px;
+    }
+}
+@media (max-width: 800px) {
+   
+    /* =========== подвал =========== */
+    .footer {
+        flex-direction: column;
+    }
+    /* =========== наши цели ============= */
+    .purpose__container {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .purpose__card {
+        width: 100%;
+        margin-top: 30px;
+    }
+    /* ============ попечительский совет ============= */
+    .member__name {
+        font-size: 25px;
+    }
+    .member__info {
+        font-size: 14px;
+    }
+    .member__description {
+        padding-left: 10px;
+    }
+     /* ========= партнеры ========== */
+    .donate__thanks {
+        font-size: 16px;
+    }
+    .donate__btn {
+        font-size: 12px;
+    }
+    .main__pay-info {
+        font-size: 10px;
+    }
+    /* ======== видео ============== */
+    .video__post {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    /* ========= главная =========== */
+    .present__quote {
+        font-size: 11px;
+        padding: 5px;
+    }
+
+
+    .links {
+        flex-direction: column;
+        align-items: center;
+    }
+    .links_card {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+    .lcard__img-wrapper {
+        height: auto;
+    }
+}
+@media (max-width: 720px) {
+    /* ======== герои ======= */
+    .heroes__h1 {
+        font-size: 25px;
+    }
+    .heroes__info {
+        font-size: 14px;
+    }
+    .heroes__list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .heroes__hero {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .hero__img-wrapper {
+        width: auto;
+    }
+    .hero__info  {
+        width: auto;
+        flex-grow: 1;
+    }
+    .hero__img {
+        height: 200px;
+        /* width: auto; */
+        width: 150px;
+    }
+    
+    /* ====== контакты ======= */
+    .contact__h3 {
+        font-size: 17px;
+        margin: 0;
+    }
+    .contact__block_row {
+        flex-direction: column;
+    }
+
+    /* ====== новости ======= */
+    .news__post {
+        width: 100%;
+    }
+    .news__img-wrapper {
+        height: auto;
+    }
+    .news__img {
+        width: 100%;
+    }
+}
+@media (max-width: 600px) {
+    .footer {
+        padding: 15px 30px;
+    }
+    /* ============ попечительский совет ============= */
+    .member__img-wrapper {
+        width: 170px;
+        height: 221px;
+    }
+    .member__description {
+        width: calc(100% - 170px);
+    }
+    .member__name {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+    .member__info {
+        font-size: 12px;
+    }
+     /* ========= партнеры ========== */
+    .main__donate {
+        flex-direction: column;
+    }
+    .donate__thanks {
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+    .donate__btn-section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .donate__btn {
+        font-size: 12px;
+        width: 50%;
+    }
+    .main__pay-info {
+        font-size: 10px;
+    }
+    .main__payment {
+        display: flex;
+        justify-content: center;
+    }
+    .main__payment-img {
+        width: 150px;
+    }
+}
+@media (max-width: 500px) {
+    .header__title {
+        font-size: 20px;
+    }
+}
+@media (max-width: 400px) {
+    /* ===== герои ===== */
+    .heroes__info {
+        font-size: 10px;
+    }
+    .hero__name {
+        font-size: 14px;
+    }
+    .hero__description {
+        font-size: 10px;
+    }
+    /* ===== контакты ====== */
+    .contact__info {
+        font-size: 12px;
+    }
+    .contact__call-i, .contact__map-i, .contact__mail-i {
+        font-size: 25px;
+    }
+    .contact__h5 {
+        margin: 20px 0 10px 0;
+    }
+
+    /* ============ попечительский совет ============= */
+    .member {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .member__img-wrapper {
+        width: 100%;
+        height: auto;
+        max-height: 260px;
+        display: flex;
+        justify-content: center;
+    }
+    .member__img {
+        width: 200px;
+    }
+    .member__description {
+        width: 100%;
+    }
+    .member__name {
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .member__info {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    /* ========== подвал ========== */
+    .footer {
+        padding: 10px 10px;
+    }
+    .footer__right, .footer__left {
+        font-size: 12px;
+    }
+}
+@media (max-width: 340px) {
+	.donate__btn {
+		font-size: 10px;
+	}
+	.header__title  {
+		font-size: 16px;
+	}
+}

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Bookmark OS';
+    src: url('BOOKOS.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('Noto_Serif.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
